@@ -4,6 +4,8 @@ import os
 import time
 import dotenv
 import ast
+import openai
+import smolagents
 from sqlalchemy.sql import text
 from datetime import datetime, timedelta
 from typing import Dict, List, Union
